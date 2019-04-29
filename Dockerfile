@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 
+LABEL maintainer="Sriramajeyam Sugumaran"
+
 WORKDIR /etc/code/data/downloads
 
 RUN apt-get update
